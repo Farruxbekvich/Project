@@ -1,0 +1,284 @@
+* {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 84px;
+    background-color: #f5f7fa;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-around;
+    position: static;
+}
+
+.navbar {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 50px
+    
+}
+
+.navbar a {
+    transition: 0.9s;
+    line-height: none;
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+.navbar a:hover {
+    transform: scale(1.1);
+}
+
+.login {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.login h5 {
+    color: #4caf4f;
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+.login h5:hover {
+    transform: scale(1.1);
+}
+
+.login button {
+    background-color: #4caf4f;
+    border: none;
+    color: white;
+    width: 91px;
+    height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background-color: #4caf4f;
+    border: none;
+    color: white;
+    width: 91px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.login button:active {
+    background-color: #4caf4f;
+    border: none;
+    color: white;
+    width: 91px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.main {
+    width: 100%;
+    height: 599px;
+    background-color: #f5f7fa;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.from {
+    width: 657px;
+    height: 276px;
+    font-size: 64px;
+}
+
+.text {
+    color: #4d4d4d;
+}
+
+.teht {
+    color: #4caf4f;
+}
+
+.taht {
+    color: #717171;
+    font-size: 16px;
+}
+
+.from button {
+    width: 128px;
+    height: 52px;
+    background-color: #4caf4f;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.front {
+    width: 391px;
+    height: 407px;
+}
+
+.front img {
+    width: 100%;
+    height: 100%;
+}
+
+.ion-icon {
+    width: 46px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.footer {
+    width: 100%;
+    height: 190px;
+}
+
+.our-client {
+    width: 1, 110px;
+    height: 76px;
+}
+
+.our {
+    font-size: large;
+    font-size: 36px;
+    color: #4d4d4d;
+    text-align: center;
+}
+
+.have {
+    font-size: 16px;
+    color: #717171;
+    text-align: center;
+}
+
+.lagas {
+    width: 1, 152px;
+    height: 98px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.sharp {
+    width: 48px;
+    height: 48px;
+}
+
+.last {
+    width: 100%;
+    height: 416px;
+}
+
+.manage {
+    color: #4d4d4d;
+    font-size: 36px;
+    text-align: center;
+}
+
+.who {
+    color: #717171;
+    font-size: 16px;
+    text-align: center;
+}
+
+.frame {
+    width: 100%;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.membership {
+    width: 299px;
+    height: 260px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mem {
+    color: #4d4d4d;
+    font-size: 28px;
+    text-align: center;
+}
+
+.memb {
+    color: #717171;
+    font-size: 14px;
+    text-align: center;
+}
+
+.membership div {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 299;
+    height: 48px;
+}
+
+.me {
+    width: 48px;
+    height: 48px;
+}
+
+.unlock {
+    width: 100%;
+    height: 433px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.un {
+    width: 441.53px;
+    height: 328.99px;
+    top: 52px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.un img {
+    width: 100%;
+    height: 100%;
+}
+
+.unl {
+    width: 661px;
+    height: 268px;
+    gap: 32px;
+    opacity: 0px;
+}
+
+.the {
+    color: rgb(77, 77, 77, 1);
+    font-size: 36px;
+    text-align: left;
+}
+
+.odio {
+    color: rgb(113, 113, 113, 1);
+    font-size: 14px;
+    text-align: left;
+}
+
+.bnt {
+    width: 151px;
+    height: 52px;
+    background-color: #4caf4f;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
